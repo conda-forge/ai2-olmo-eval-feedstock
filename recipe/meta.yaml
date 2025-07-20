@@ -1,5 +1,5 @@
 {% set name = "ai2-olmo-eval" %}
-{% set version = "0.8.4" %}
+{% set version = "0.8.5" %}
 {% set python_min = python_min|default("0.1a0") %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ai2_olmo_eval-{{ version }}.tar.gz
-  sha256: 0bc7cfe7781563bffe6ccc7752f20c3ac9388e2c3668ebe63323ea576ba79331
+  sha256: 6035c6a106071e70e34d894458e51130bf3188961b301abffc9068bbd1608e4e
 
 build:
   noarch: python
