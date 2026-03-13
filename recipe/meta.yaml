@@ -23,16 +23,15 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - numpy <2.0
     - pytorch
     - torchmetrics
-    - datasets
-    - tokenizers
-    - scikit-learn
+    - datasets >=3.6.0,<4
     - cached_path
     - requests
     - packaging
-    - importlib-resources
+    - importlib_resources
+    - tokenizers >=0.19.1,<0.23
+    - pyarrow >=19.0,<20
 
 test:
   imports:
